@@ -1,4 +1,10 @@
-export const books: any = [
+type BooksTypes = {
+    name: string;
+    author: string;
+    page: number;
+};
+
+export const books: BooksTypes[] = [
     {
         name: "Sahihi Bukhoriy 1",
         author: "Ismoyil Al-Buxoriy",
